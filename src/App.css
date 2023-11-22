@@ -8,8 +8,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  
-  align-items: center ;
+
+  align-items: center;
   margin-bottom: 5rem;
   padding: 1rem;
 }
@@ -19,9 +19,9 @@ header {
   font-weight: 500;
 }
 
-.imgLogo{
+.imgLogo {
   height: 50px;
-  
+
 
 }
 
@@ -32,40 +32,39 @@ header {
   padding: 5px;
 }
 
-input{
-  border:none
+input {
+  border: none
 }
 
 
-.searchBar > img {
+.searchBar>img {
   height: 30px;
 }
 
 .cardsContainer {
   display: flex;
   flex-wrap: wrap;
-  
+
   padding: 10px;
   gap: 10px;
 }
 
 .card {
-  
+
   display: flex;
   flex-direction: column;
   position: relative;
-  
- 
-  
-  
+
+
+
+
 }
 
 .card i {
-  border:2px solid pink;
+  border: 2px solid pink;
   position: absolute;
-  right:10px;
-  top:10px
-
+  right: 10px;
+  top: 10px
 }
 
 .card img {
@@ -85,3 +84,12 @@ input{
   border-bottom-right-radius: 12px;
 }
 
+.footer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 1rem;
+  border-top: solid 2px gray;
+}
