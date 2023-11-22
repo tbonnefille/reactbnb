@@ -1,11 +1,10 @@
 
-
 import { toto } from './exExport';
 import { numb } from './exExport';
 
-import Header from './components/Header';
-import Section from './components/Section';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Section from './components/Section/Section';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -22,9 +21,7 @@ function App() {
 
 
             <Header />
-
             <Section />
-
             <Footer />
 
 

@@ -1,6 +1,8 @@
 
-import '../App.css';
-import logo from '../assets/logo.png';
+import './footer.css';
+
+
+import logo from '../../assets/logo.png';
 
 
 
