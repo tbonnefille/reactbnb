@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 
 import './App.css';
 
+/* const App = ()  => {*/
+
 function App() {
 
     console.log("toto?", toto);
@@ -19,11 +21,9 @@ function App() {
 
         <div className="myclass">
 
-
             <Header />
             <Section />
             <Footer />
-
 
         </div>
 

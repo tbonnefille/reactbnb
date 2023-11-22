@@ -6,13 +6,3 @@ body {
 
 
 
-
-.footer {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  padding: 1rem;
-  border-top: solid 2px gray;
-}

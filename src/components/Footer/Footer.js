@@ -1,28 +1,25 @@
 
 import './footer.css';
 
-
 import logo from '../../assets/logo.png';
 
 
 
 const Footer = () => {
 
-return (
+    return (
 
-<div className="footer"> 
+        <div className="footer">
 
-<div>Mon Footer</div>
+            <div>Mon Footer</div>
 
-<img className="imgLogo" src={logo} alt="logo" />
-
-
-</div>
+            <img className="imgLogo" src={logo} alt="logo" />
 
 
-)
+        </div>
 
 
+    )
 }
 
 
